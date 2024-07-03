@@ -1,0 +1,11 @@
+numfeatures1        = 7; %num of fields in dict; the higher number the slower training
+numfeatures2        = 16; %not used in the code
+kernelsize1         = 5; % number of pixels in dict's fields
+kernelsize2         = 5;
+poolsize1           = 3; %size of pooling layer (row); p in article
+poolsize2           = 3; %size of pooling layer (col); p in article
+vneighbors1         = numfeatures1; %cannot be greater than numfeatures1
+vneighbors2         = 32; %not used in the code
+poolstride1         = 1; % s in the article
+poolstride2         = 1; % s in the article
+wiredConnect        = 16; %not used in the code
